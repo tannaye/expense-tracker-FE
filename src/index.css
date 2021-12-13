@@ -1,13 +1,92 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+/* //font sizes */
+.fs-10 {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.fs-12 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.fs-13 {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.fs-14 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.fs-16 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fs-18 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.fs-20 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.fs-24 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: unset !important;
+}
+
+/* dashboard */
+.category-card {
+  background-color: #efefef;
+  border-radius: 8px;
+  box-shadow: 0px 7px 14px rgba(10, 10, 10, 0.28);
+}
+
+/* aside  */
+.aside {
+  background-color: #007bff;
+  padding: 16px;
+  position: sticky;
+  min-height: 100vh;
+  min-width: 15vw;
+}
+
+.aside-menu-list {
+  list-style-type: none;
+}
+
+.aside-menu-list-item {
+  color: #fff;
+  font-size: 16px;
+  margin: 100px 10px !important;
+  text-decoration: none;
+}
+
+.aside-menu-list-item:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.aside p {
+  margin-bottom: 0px !important;
 }
